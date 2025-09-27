@@ -319,7 +319,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: f2cbf934db9364848981eaf364e42471, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -358,8 +358,8 @@ Transform:
   m_GameObject: {fileID: 368495152}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.21, y: 0.35, z: -3.89}
-  m_LocalScale: {x: 0.43042, y: 0.7045432, z: 0.51736}
+  m_LocalPosition: {x: -0.36, y: 0.32, z: -3.89}
+  m_LocalScale: {x: 0.43042, y: 0.5012402, z: 0.51736}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -637,7 +637,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.04945, y: 0, z: -7.72}
-  m_LocalScale: {x: 15.435, y: 1, z: 0.525}
+  m_LocalScale: {x: 15.435, y: 2.4704, z: 0.525}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -745,7 +745,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.04945, y: 0, z: 7.32}
-  m_LocalScale: {x: 15.435, y: 1, z: 0.525}
+  m_LocalScale: {x: 15.435, y: 2.4704, z: 0.525}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -853,7 +853,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 7.56, y: 0, z: -0.25}
-  m_LocalScale: {x: 15.435, y: 1, z: 0.525}
+  m_LocalScale: {x: 15.435, y: 2.4704, z: 0.525}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1029,7 +1029,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: bd12d69f45834504da4d4486240d3d8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1286,7 +1286,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -7.42, y: 0, z: -0.25}
-  m_LocalScale: {x: 15.435, y: 1, z: 0.525}
+  m_LocalScale: {x: 15.435, y: 2.4704, z: 0.525}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
