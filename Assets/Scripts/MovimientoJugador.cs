@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MovimientoJugador : MonoBehaviour
@@ -20,6 +21,7 @@ public class MovimientoJugador : MonoBehaviour
     {
         movimientoEjeX = Input.GetAxis("Horizontal") * Time.deltaTime * velocidadMovimiento;
         movimientoEjeZ = Input.GetAxis("Vertical") * Time.deltaTime * velocidadMovimiento; 
+        
 
         transform.Translate(movimientoEjeX, movimientoEjeY, movimientoEjeZ);
     }
