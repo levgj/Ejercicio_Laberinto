@@ -1,9 +1,13 @@
 using UnityEngine;
+using TMPro;
 
 public class WinningDetector : MonoBehaviour
 {
     [SerializeField]
     GameObject pantallaDeVictoria;
+
+    [SerializeField]
+    TextMeshProUGUI textLabelTime;
 
     float gameTime = 0f;
     bool isPlaying = true;
@@ -24,6 +28,7 @@ public class WinningDetector : MonoBehaviour
             other.GetComponent<MovimientoJugador>().enabled = false;
             isPlaying = false;
             Debug.Log(gameTime);
+            textLabelTime.text = gameTime.ToString();
         }
     }
 
