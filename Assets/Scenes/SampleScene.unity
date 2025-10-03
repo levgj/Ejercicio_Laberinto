@@ -253,6 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 48492579}
   - component: {fileID: 48492578}
+  - component: {fileID: 48492580}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -280,11 +281,11 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 0}
+    TrackingTarget: {fileID: 368495156}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 60.000004
+    FieldOfView: 53.7
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -312,12 +313,31 @@ Transform:
   m_GameObject: {fileID: 48492577}
   serializedVersion: 2
   m_LocalRotation: {x: 0.34375206, y: -0.46108308, z: 0.19979773, w: 0.79329556}
-  m_LocalPosition: {x: 4.398467, y: 13.29767, z: 0.30977345}
+  m_LocalPosition: {x: -3.45, y: 4.8300004, z: 4.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &48492580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48492577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b617507da6d07e749b7efdb34e1173e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrackerSettings:
+    BindingMode: 4
+    PositionDamping: {x: 1, y: 1, z: 1}
+    AngularDampingMode: 0
+    RotationDamping: {x: 1, y: 1, z: 1}
+    QuaternionDamping: 1
+  FollowOffset: {x: 2.84, y: 4.51, z: -1.69}
 --- !u!1 &126933748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1143,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60.000004
+  field of view: 53.7
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1150,7 +1170,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.34375206, y: -0.46108308, z: 0.19979773, w: 0.79329556}
-  m_LocalPosition: {x: 4.398467, y: 13.29767, z: 0.30977345}
+  m_LocalPosition: {x: -3.45, y: 4.8300004, z: 4.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
